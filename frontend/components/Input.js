@@ -18,6 +18,7 @@ const Input = ({
       <TextInput
       style={{borderRadius: 30}}
       mode='outlined'
+      error={isInvalid}
       secure={secure}
       keyboardType={keyboardType}
       label={label}
